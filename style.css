@@ -1,0 +1,198 @@
+* { 
+
+    margin: 0px; 
+    padding: 0px; 
+    
+} 
+.parallax-1 { 
+    width: 100%; 
+    height: 600px; 
+    background: url(https://wallpapercave.com/wp/wp5342683.jpg); 
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    background-position: center;   
+} 
+    
+/* Styling the title of first parallax */ 
+.parallax-1 h2 { 
+     margin: auto; 
+     position: relative;
+     left: 500x; 
+     top: 100px; 
+     width: 250px; 
+     height: 32px; 
+     padding: 10px; 
+     background-color: rgba(0, 0, 0, 0.932); 
+     color: white; 
+     text-align: center; 
+    
+} 
+    
+     /* Styling the second parallax's 
+    height, width and background color */ 
+    
+.parallax-2 { 
+     width: 100%; 
+     height: 600px; 
+     background: url(https://images8.alphacoders.com/100/1003220.png); 
+     background-size: 100% 100%; 
+     background-attachment: fixed; 
+     background-position: 50% 50%; 
+    
+} 
+    
+/* Styling the title of second parallax */ 
+    
+.parallax-2 h2 { 
+    margin: auto; 
+    position: relative; 
+    left: 500x; 
+    top: 300px; 
+    width: 250px; 
+    height: 75px; 
+    padding: 10px; 
+    background-color:rgba(0, 0, 0, 0.913); 
+    color:white; 
+    text-align: center; 
+    font-size: 30px;  
+} 
+    
+.parallax-3{
+    width: 100%; 
+    height: 600px; 
+    background: url(https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/09/marvel-spider-man-miles-morales-iz-1920x1080-1-920x518.jpg); 
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    background-position: CENTER; 
+} 
+    
+.parallax-4 { 
+    width: 100%;
+    height: 600px; 
+    background: url(https://www.denofgeek.com/wp-content/uploads/2019/04/gotg-main-cast.jpg?resize=768%2C432); 
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    background-position: CENTER; 
+    
+} 
+    
+/* Styling the title of second parallax */ 
+.parallax-3 h2 { 
+    margin: auto; 
+    position: relative; 
+    left: 500x; 
+    top: 300px; 
+    width: 250px; 
+    height: 75px; 
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.941); 
+    color:white; 
+    text-align: center; 
+    font-size: 30px; 
+    
+} 
+.parallax-4 h2 { 
+    margin: auto; 
+    position: relative; 
+    left: 500x; 
+    top: 300px; 
+    width: 250px; 
+    height: 75px; 
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.941); 
+    color:white; 
+    text-align: center; 
+    font-size: 30px; 
+    
+} 
+    
+/* Styling the content or paragraph */ 
+.para-1 { 
+    padding: 50px; 
+    background-color: black; 
+    color: white; 
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif; 
+    
+} 
+ /* Styling the content or paragraph */ 
+ .para-2 { 
+    text-align: center; 
+    padding: 25px; 
+    font-size: 17px; 
+    font-family: Verdana; 
+    background-color: rgba(0, 0, 0, 0.9); 
+    color: white; 
+    font-family: 'Times New Roman', Times, serif; 
+    
+} 
+    
+.para-3 { 
+    text-align: center; 
+    padding: 25px; 
+    font-size: 17px; 
+    font-family: Verdana; 
+    background-color: rgba(0, 0, 0, 0.902); 
+    color: white; 
+    font-family: 'Times New Roman', Times, serif; 
+} 
+.para-4 { 
+    text-align: center; 
+    padding: 25px; 
+    font-size: 17px; 
+    font-family: Verdana; 
+    background-color: rgba(0, 0, 0, 0.9); 
+    color: white; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+    
+    
+.para-1:hover{ 
+    background:linear-gradient(rgb(206, 141, 197),blue); 
+    color:rgb(11, 12, 12); 
+    transition:1s; 
+    
+} 
+.para-2:hover{ 
+    background:linear-gradient(rgb(230, 147, 191),blue); 
+    color:rgb(16, 16, 16); 
+    transition:1s; 
+    
+ } 
+.para-3:hover{ 
+    background:linear-gradient(rgb(223, 112, 172),blue); 
+    color:rgb(17, 17, 17); 
+    transition:1s; 
+    
+} 
+.para-4:hover{ 
+    background:linear-gradient(rgb(223, 112, 172),blue); 
+    color:rgb(10, 11, 11); 
+    transition:1s; 
+}
+.parallax-1 h2:hover{ 
+    text-shadow: 0px 20px 10px; 
+    background:rgb(115, 125, 214); 
+    border-radius:50px; 
+    color:black; 
+    
+} 
+.parallax-2 h2:hover{ 
+    text-shadow: 0px 20px 10px; 
+    background:rgb(110, 102, 209); 
+    border-radius:50px; 
+    color:black; 
+    
+} 
+.parallax-3 h2:hover{ 
+    text-shadow: 0px 20px 10px; 
+    background:rgb(143, 118, 220); 
+    border-radius:50px; 
+    color:black; 
+} 
+.parallax-4 h2:hover{ 
+    text-shadow: 0px 20px 10px; 
+    background:rgb(132, 124, 245); 
+    border-radius:50px; 
+    color:black;
+}
